@@ -11,11 +11,17 @@ plugins:
   - jemoji
   - jekyll-include-cache
   # - jemoji   # 如需要 GitHub emoji 支持
+
+locale: "zh-CN"
 markdown: kramdown
 search: true
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
+repository: "denglei1024/denglei1024.github.io"
+read_time: true
+codeenable_copy_code_button: true
+search_within_pages: true
 include:
   - _pages
 author:
