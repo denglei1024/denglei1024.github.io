@@ -12,7 +12,7 @@ plugins:
   - jekyll-include-cache
   # - jemoji   # 如需要 GitHub emoji 支持
 
-locale: "zh-CN"
+locale: zh-CN
 markdown: kramdown
 search: true
 permalink: /:categories/:title/
