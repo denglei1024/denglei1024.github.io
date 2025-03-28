@@ -1,4 +1,4 @@
-title: "碳基喵的编程博客"
+title: "邓磊的编程博客"
 description: "分享我的代码、技巧、经验和思考，记录我的成长和进步。同时希望能帮助其他开发人员提高工作效率。"
 url: "https://denglei1024.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
@@ -20,7 +20,7 @@ include:
 author:
   name   : "邓磊"
   avatar : "/assets/images/bio.jpg"
-  bio    : "软件开发工程师，热爱 C#、.NET、PowerShell 以及关于自动化相关的一切。"
+  bio    : "是软件开发工程师，也是一个可爱女孩的父亲。热爱 C#、.NET、PowerShell 以及关于自动化相关的一切。"
   location: "中国·湖北·武汉"
   links:
     - label: "GitHub"
