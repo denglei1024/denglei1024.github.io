@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "关于我"
 ---
 
-please, [github.com/denglei1024](https://github.com/denglei1024)
+[github.com/denglei1024](https://github.com/denglei1024)
