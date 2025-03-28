@@ -7,5 +7,13 @@ search: false
 
 $doc-font-size: 14px;
 
+/* headline scale */
+$h-size-1: 1.563em * 0.8 !default; // ~25.008px
+$h-size-2: 1.25em * 0.8 !default; // ~20px
+$h-size-3: 1.125em * 0.8 !default; // ~18px
+$h-size-4: 1.0625em * 0.8 !default; // ~17px
+$h-size-5: 1.03125em * 0.8 !default; // ~16.5px
+$h-size-6: 1em * 0.8 !default; // ~16px
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
