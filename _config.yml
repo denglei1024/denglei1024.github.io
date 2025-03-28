@@ -20,7 +20,7 @@ include:
 author:
   name   : "邓磊"
   avatar : "/assets/images/bio.jpg"
-  bio    : "软件开发工程师，热爱C#、.NET、Pwsh以及关于自动化相关的一切。"
+  bio    : "软件开发工程师，热爱 C#、.NET、PowerShell 以及关于自动化相关的一切。"
   location: "中国·湖北·武汉"
   links:
     - label: "GitHub"
