@@ -1,5 +1,6 @@
-title: "邓磊的编程博客"
-description: "分享我的代码、技巧、经验和思考，记录我的成长和进步。同时希望能帮助其他开发人员提高工作效率。"
+title: 邓磊的编程博客
+description: 分享我的代码、技巧、经验和思考，记录我的成长和进步。同时希望能帮助其他开发人员提高工作效率。
+subtitle: 分享我的代码、技巧、经验和思考，记录我的成长和进步。同时希望能帮助其他开发人员提高工作效率。 
 url: "https://denglei1024.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
