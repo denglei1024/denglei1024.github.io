@@ -1,5 +1,12 @@
 ---
 title: "在 asp.net core 项目中动态获取运行时的服务地址"
+tags:
+  - c#
+  - asp.net core
+  - 服务注册
+  - service registration
+  - consul
+  - 微服务
 ---
 
 > 版本信息：.net9
