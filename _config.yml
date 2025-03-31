@@ -1,6 +1,6 @@
-title: denglei's programming blog
-description: share my code、tip and expresion.
-subtitle: share my code、tip and expresion.
+title: DengLei's Progromming Blog
+description: a blog about programming, technology and life
+subtitle: Share my code、tips and experience to help others
 url: "https://denglei1024.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:

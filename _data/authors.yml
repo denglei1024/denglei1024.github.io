@@ -1,8 +1,8 @@
 denglei:
-  name   : "denglei"
+  name   : "Deng Lei"
   avatar : "/assets/images/bio.jpg"
-  bio    : "a programeer。"
-  location: "WH, China"
+  bio    : "I amd a software enginner, I am interested in Open Source, Cloud Native, DevOps, and AI. I am also shareing my knowledge and experience to help others."
+  location: "WuHan, China"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
