@@ -22,6 +22,7 @@ repository: "denglei1024/denglei1024.github.io"
 read_time: true
 codeenable_copy_code_button: true
 search_within_pages: true
+author: denglei
 include:
   - _pages
 footer:
