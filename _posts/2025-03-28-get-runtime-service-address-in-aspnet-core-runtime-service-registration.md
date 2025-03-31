@@ -1,12 +1,10 @@
 ---
-title: "在 asp.net core 项目中动态获取运行时的服务地址"
+title: "how to get runtime service address in asp.net core"
 tags:
   - c#
   - asp.net core
-  - 服务注册
   - service registration
   - consul
-  - 微服务
 ---
 
 > 版本信息：.net9
@@ -17,7 +15,7 @@ tags:
 
 ```csharp
 
-// 获得服务地址  
+// get service address
 var features = app.ServerFeatures;  
 var addresses = features.GetRequiredFeature<IServerAddressesFeature>();  
 var address = addresses.Addresses.First();
@@ -30,11 +28,9 @@ var address = addresses.Addresses.First();
 
 
 ```csharp
-// 获取生命周期管理  
 var lifetime = app.ApplicationServices.GetRequiredService<IHostApplicationLifetime>();  
 lifetime.ApplicationStarted.Register(() =>  
-{  
-    // 获得服务地址  
+{
     var features = app.ServerFeatures;  
     var addresses = features.GetRequiredFeature<IServerAddressesFeature>();  
     var address = addresses.Addresses.First();  
@@ -47,18 +43,15 @@ lifetime.ApplicationStarted.Register(() =>
 
 public static void UseConsul(this IApplicationBuilder app, IConfiguration configuration)
 {
-    // 获取生命周期管理
     var lifetime = app.ApplicationServices.GetRequiredService<IHostApplicationLifetime>();
     lifetime.ApplicationStarted.Register(() =>
     {
         var consulClient = app.ApplicationServices
             .GetRequiredService<IConsulClient>();
-        // 获得服务地址
         var features = app.ServerFeatures;
         var addresses = features.GetRequiredFeature<IServerAddressesFeature>();
         var address = addresses.Addresses.First();
         var serviceIdProvider = app.ApplicationServices.GetRequiredService<ServiceIdProvider>();
-        // 注册服务
         var uri = new Uri(address);
         var registration = new AgentServiceRegistration()
         {
