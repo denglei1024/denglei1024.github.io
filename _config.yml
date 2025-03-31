@@ -24,15 +24,6 @@ codeenable_copy_code_button: true
 search_within_pages: true
 include:
   - _pages
-author:
-  name   : "邓磊"
-  avatar : "/assets/images/bio.jpg"
-  bio    : "是软件开发工程师，也是一个可爱女孩的父亲。热爱 C#、.NET、PowerShell 以及关于自动化相关的一切。"
-  location: "中国·湖北·武汉"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/denglei1024"
 footer:
   links:
     - label: "GitHub"

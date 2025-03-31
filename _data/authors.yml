@@ -1,0 +1,12 @@
+邓磊:
+  name   : "邓磊"
+  avatar : "/assets/images/bio.jpg"
+  bio    : "是软件开发工程师，也是一个可爱女孩的父亲。热爱 C#、.NET、PowerShell 以及关于自动化相关的一切。"
+  location: "中国·湖北·武汉"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/denglei1024"
+    - label: "CSDN"
+      icon: "/assets/images/csdn.png"
+      url: "https://blog.csdn.net/github_37151951?spm=1010.2135.3001.5343"
