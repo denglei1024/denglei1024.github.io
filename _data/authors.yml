@@ -2,7 +2,7 @@ denglei:
   name   : "denglei"
   avatar : "/assets/images/bio.jpg"
   bio    : "a programeer。"
-  location: "中国·湖北·武汉"
+  location: "WH, China"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
