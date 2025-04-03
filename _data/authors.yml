@@ -1,7 +1,7 @@
 denglei:
-  name   : "碳基喵"
+  name   : "DL.邓磊"
   avatar : "/assets/images/bio.jpg"
-  bio    : "是一名软件工程师，我对开源、云原生、DevOps和人工智能感兴趣。我也在分享我的知识和经验来帮助其他人。"
+  bio    : "我是一名软件工程师，对开源、云原生、DevOps和人工智能感兴趣。我也在分享知识、技巧来帮助其他人。"
   location: "武汉, 中国"
   links:
     - label: "GitHub"
