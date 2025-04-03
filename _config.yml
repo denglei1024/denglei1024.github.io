@@ -1,6 +1,6 @@
-title: Deng Lei's Progromming Blog
-description: a blog about programming, technology and life
-subtitle: Share my code、tips and experience to help others
+title: 碳基喵的编程博客
+description: 一个程序员的个人博客，持续分享编程、数据库、云原生、自动化和人工智能等方面的知识、技巧。
+subtitle: 分享编程、数据库、云原生、自动化和人工智能等方面的知识、技巧
 url: "https://denglei1024.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
@@ -12,7 +12,7 @@ plugins:
   - jekyll-include-cache
   # - jemoji   # 如需要 GitHub emoji 支持
 
-locale: en-US
+locale: zh-CN
 markdown: kramdown
 search: true
 permalink: /:categories/:title/

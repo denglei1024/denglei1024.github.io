@@ -1,8 +1,8 @@
 denglei:
-  name   : "Deng Lei"
+  name   : "碳基喵"
   avatar : "/assets/images/bio.jpg"
-  bio    : "I amd a software enginner, I am interested in Open Source, Cloud Native, DevOps, and AI. I am also shareing my knowledge and experience to help others."
-  location: "WuHan, China"
+  bio    : "是一名软件工程师，我对开源、云原生、DevOps和人工智能感兴趣。我也在分享我的知识和经验来帮助其他人。"
+  location: "武汉, 中国"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
