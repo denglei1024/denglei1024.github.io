@@ -1,5 +1,5 @@
 ---
-title: "how to get runtime service address in asp.net core"
+title: "如何在 asp.net core 中动态获取运行时的服务地址信息"
 tags:
   - c#
   - asp.net core
@@ -7,9 +7,14 @@ tags:
   - consul
 ---
 
-> 版本信息：.net9
+## 引言
+
+本文主要讲解在 asp.net core 开发的项目中，如何动态获取服务的地址信息。
+
+## 正文
 
 我在使用 asp.net core web api 搭建项目实践 consul 的服务发现功能，想动态获取当前运行实例的服务地址，查阅了相关资料发现可以使用`ServerFeatures`来获取。
+ 
 
 关键代码是：
 
